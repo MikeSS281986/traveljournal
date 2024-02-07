@@ -1,7 +1,7 @@
 import TitleBar from './components/TitleBar'
 import TravelCard from './components/TravelCard'
 import './App.css'
-import data from './assets/data'
+import data from './public/assets/data'
 
 function App() {
   const cards = data.map(item => {
