@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f5efef;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.titleBar {
+  font-size: 36px;
+  color: white;
+  height: 143px;
+  background-color: #F06F6F;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.nav--logo {
+  width: 63px;
+  height: 49px;
+  margin-top: 40px; 
+  margin-right: 5px;
+  
+}
+
+.travelCard {
+  display: flex;
+  color: black;
+  margin-top: 100px;
+  margin-left: 20%;
+  max-width: 700px;
+}
+
+.loc--data {
+  display: flex;
+  flex-direction: column;
+  max-height:30px;
+  margin-left:30px;
+}
+
+.loc--info {
+  display: flex;
+  margin-top: 10px;
+}
+
+.loc--image {
+  height:231px ;
+  width:150px;
+  border-radius: 15px;
+}
+
+.loc--pin {
+  width: 32px;
+  height: 32px;
+}
+
+.country {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.loc--link {
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #3F3D3D;
+}
+
+.loc--name {
+
+}
+
+.travel--date {
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.travel--info {
+  margin-top: -10px;
+  font-size: 15px;
+}
